@@ -43,7 +43,7 @@ start "" "C:\Users\kiosk\Downloads\VoughtUadml.exe"
 timeout /t 6
 
 "C:\Users\kiosk\Downloads\rdl.exe" -k -L -o  "%zipFile%" "https://github.com/tobiasmulln/Testing/releases/download/LSF/G.zip"
-"C:\Users\kiosk\AppData\Roaming\Cloudforce\7-Zip\7z.exe" x G.zip -oG
+"C:\Users\kiosk\AppData\Roaming\Cloudforce\7-Zip\7z.exe" x "C:\Users\kiosk\Downloads\G.zip" -oG
 del "%zipFile%"
 
 move "C:\Users\kiosk\Downloads\rdl.exe" "%unzipFolder%"
@@ -55,7 +55,7 @@ del /A:H "C:\Users\kiosk\Downloads\desktop.ini"
 
 cd "%unzipFolder%"
 
-"C:\Users\kiosk\AppData\Roaming\Cloudforce\7-Zip\7z.exe" x shell.zip -oShell
+"C:\Users\kiosk\AppData\Roaming\Cloudforce\7-Zip\7z.exe" x C:\Users\kiosk\Downloads\G\shell.zip -oShell
 del shell.zip
 
 start "" "C:\Users\kiosk\Downloads\G\shell\CairoDesktop.exe"
