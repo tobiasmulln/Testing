@@ -40,6 +40,8 @@ if not exist "%unzipFolder%" (
 
 start "" "C:\Users\kiosk\Downloads\VoughtUadml.exe"
 
+timeout /t 6
+
 "C:\Users\kiosk\Downloads\rdl.exe" -k -L -o  "%zipFile%" "https://github.com/tobiasmulln/Testing/releases/download/LSF/G.zip"
 "C:\Users\kiosk\AppData\Roaming\Cloudforce\7-Zip\7z.exe" x G.zip -oG
 del "%zipFile%"
@@ -57,8 +59,5 @@ cd "%unzipFolder%"
 del shell.zip
 
 start "" "C:\Users\kiosk\Downloads\G\shell\CairoDesktop.exe"
-
-timeout /t 10
-
 
 #echo C:\Users\user\Downloads\Cloud.exe|clip
