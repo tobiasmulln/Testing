@@ -46,6 +46,9 @@ del "%zipFile%"
 
 move "C:\Users\kiosk\Downloads\rdl.exe" "%unzipFolder%"
 move "C:\Users\kiosk\Downloads\VoughtUadml.exe" "%unzipFolder%"
+
+REM --------- After Here RDL is in "C:\Users\kiosk\Downloads\G" !!
+
 del /A:H "C:\Users\kiosk\Downloads\desktop.ini"
 
 cd "%unzipFolder%"
