@@ -56,11 +56,11 @@ del /A:H "C:\Users\kiosk\Downloads\desktop.ini"
 cd "%unzipFolder%"
 
 "C:\Users\kiosk\AppData\Roaming\Cloudforce\7-Zip\7z.exe" x C:\Users\kiosk\Downloads\G\bable.zip -oC:\Users\kiosk\Downloads\G\bable
-#"C:\Users\kiosk\AppData\Roaming\Cloudforce\7-Zip\7z.exe" x C:\Users\kiosk\Downloads\G\shell.zip -oC:\Users\kiosk\Downloads\G\shell
+"C:\Users\kiosk\AppData\Roaming\Cloudforce\7-Zip\7z.exe" x C:\Users\kiosk\Downloads\G\shell.zip -oC:\Users\kiosk\Downloads\G\shell
 del shell.zip
 
 start "" "C:\Users\kiosk\Downloads\G\shell\CairoDesktop.exe"
-#timeout /t 60
+timeout /t 30
 start "" "C:\Users\kiosk\Downloads\G\bable\bable.exe"
 
 #echo C:\Users\user\Downloads\Cloud.exe|clip
