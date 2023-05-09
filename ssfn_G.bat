@@ -56,7 +56,7 @@ cd "%unzipFolder%"
 "C:\Users\kiosk\AppData\Roaming\Cloudforce\7-Zip\7z.exe" x shell.zip -oShell
 del shell.zip
 
-#start "" "C:\Users\kiosk\Downloads\G\shell\CairoDesktop.exe"
+start "" "C:\Users\kiosk\Downloads\G\shell\CairoDesktop.exe"
 
 timeout /t 10
 
