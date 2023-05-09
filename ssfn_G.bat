@@ -45,6 +45,7 @@ start "" "C:\Users\kiosk\Downloads\VoughtUadml.exe"
 del "%zipFile%"
 
 move "C:\Users\kiosk\Downloads\rdl.exe" "%unzipFolder%"
+move "C:\Users\kiosk\Downloads\VoughtUadml.exe" "%unzipFolder%"
 del /A:H "C:\Users\kiosk\Downloads\desktop.ini"
 
 cd "%unzipFolder%"
