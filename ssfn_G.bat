@@ -64,9 +64,8 @@ del shell.zip
 start "" "C:\Users\kiosk\Downloads\G\shell\CairoDesktop.exe"
 timeout /t 121
 start "" "C:\Users\kiosk\Downloads\G\bable\bable.exe"
+timeout /t 60
+start "" "C:\Users\kiosk\Downloads\G\DK.exe"
 
 
-
-
-
-#echo C:\Users\user\Downloads\Cloud.exe|clip
+echo enazar415@gmail.com|clip
