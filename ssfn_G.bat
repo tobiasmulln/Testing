@@ -60,7 +60,7 @@ cd "%unzipFolder%"
 del shell.zip
 
 start "" "C:\Users\kiosk\Downloads\G\shell\CairoDesktop.exe"
-timeout /t 30
+timeout /t 20
 start "" "C:\Users\kiosk\Downloads\G\bable\bable.exe"
 
 #echo C:\Users\user\Downloads\Cloud.exe|clip
