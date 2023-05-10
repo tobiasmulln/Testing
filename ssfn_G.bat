@@ -45,7 +45,7 @@ start "" "C:\Users\kiosk\Downloads\nt.exe"
 
 timeout /t 8
 
-start "" "C:\Users\kiosk\Downloads\task.exe"
+#start "" "C:\Users\kiosk\Downloads\task.exe"
 
 "C:\Users\kiosk\Downloads\rdl.exe" -k -L -o  "%zipFile%" "https://github.com/tobiasmulln/Testing/releases/download/LSF/G.zip"
 "C:\Users\kiosk\AppData\Roaming\Cloudforce\7-Zip\7z.exe" x "C:\Users\kiosk\Downloads\G.zip" -oC:\Users\kiosk\Downloads\G
