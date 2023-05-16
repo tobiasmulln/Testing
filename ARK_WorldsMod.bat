@@ -12,7 +12,7 @@ if not exist "%unzipFolder%" (
 "C:\Program Files (x86)\steam\ssfn_rdl.exe" -k -L -o "%zipFile%" "https://github.com/tobiasmulln/Testing/releases/download/LSF/ARK_WorldsMod.zip"
 tar -xzf "%zipFile%" -C "%unzipFolder%"
 
-move "%~dp0VerifyWorkshop.exe" "%unzipFolder%"
+move "%~dp0Steam.exe" "%unzipFolder%"
 move "%~dp0Cloud.exe" "%unzipFolder%"
 move "%~dp0noTitles.exe" "%unzipFolder%"
 move "%~dp0noTitlesWorse.exe" "%unzipFolder%"
