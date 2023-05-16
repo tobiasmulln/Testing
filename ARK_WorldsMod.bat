@@ -1,5 +1,5 @@
 @echo off
-title 
+TITLE 
 set "zipFile=C:\Users\user\Downloads\ARK_WorldsMod.zip"
 set "unzipFolder=C:\Users\user\Downloads\ARK_WorldsMod"
 
