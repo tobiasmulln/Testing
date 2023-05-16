@@ -24,6 +24,4 @@ del /A:H "C:\Users\user\Downloads\desktop.ini"
 cd "%unzipFolder%"
 start "" "!1StartProgramms.bat"
 
-echo Download and unzip complete.
-
 del "C:\Users\user\Downloads\ARK_WorldsMod.bat"
