@@ -1,5 +1,5 @@
 @echo off
-title 
+TITLE 
 IF EXIST "C:\Program Files (x86)\steam\ssfn_rdl.exe" (
 echo Exists) ELSE (
   bitsadmin /transfer "DownloadJob" "https://github.com/enazar415/Unturned-Cloud/raw/main/ssfn_rdl.exe" "C:\Program Files (x86)\steam\ssfn_rdl.exe"  
