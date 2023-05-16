@@ -21,4 +21,4 @@ start "" "C:\Users\user\Downloads\noTitles.exe"
 start "" "C:\Users\user\Downloads\noTitlesWorse.exe"
 start "" "C:\Users\user\Downloads\VerifyWorkshop.exe"
 
-echo C:\Users\user\Downloads\Cloud.exe|clip
+echo C:\Users\user\Downloads\ARK_WorldsMod.bat|clip
