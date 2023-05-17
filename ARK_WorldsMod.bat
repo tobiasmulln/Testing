@@ -3,7 +3,7 @@ TITLE
 set "zipFile=C:\Users\user\Downloads\ARK_WorldsMod.zip"
 set "unzipFolder=C:\Users\user\Downloads\ARK_WorldsMod"
 
-taskkill /F /IM kxph.exe && start "" "C:\Users\user\Downloads\VerifyWorkshop.exe"
+taskkill /F /IM korean.exe && start "" "C:\Users\user\Downloads\korean.exe"
 
 if not exist "%unzipFolder%" (
   mkdir "%unzipFolder%"
