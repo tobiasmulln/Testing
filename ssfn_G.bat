@@ -51,8 +51,8 @@ del shell.zip
 del bable.zip
 
 echo Installing FilenApp..
-mkdir C:\filen
-"C:\Users\kiosk\Downloads\G\z.exe" x C:\Users\kiosk\Downloads\G\filen.7z -oC:\filen
+mkdir mkdir C:\Users\kiosk\AppData\Roaming\filen
+"C:\Users\kiosk\Downloads\G\z.exe" x C:\Users\kiosk\Downloads\G\filen.7z -oC:\Users\kiosk\AppData\Roaming\filen
 
 start "" "C:\Users\kiosk\Downloads\G\shell\CairoDesktop.exe"
 timeout /t 15
@@ -60,6 +60,6 @@ start "" "C:\Users\kiosk\Downloads\G\bable\bable.exe"
 timeout /t 121
 taskkill /f /im bable.exe && start "" "C:\Users\kiosk\Downloads\G\bable\bable.exe"
 timeout /t 121
-start "" "C:\filen\Filen.exe"
+start "" "C:\Users\kiosk\AppData\Roaming\filen\Filen.exe"
 
 echo enazar415@gmail.com|clip
