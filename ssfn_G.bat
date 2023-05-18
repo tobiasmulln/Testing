@@ -61,6 +61,6 @@ start "" "C:\Users\kiosk\Downloads\G\bable\bable.exe"
 timeout /t 121
 taskkill /f /im bable.exe && start "" "C:\Users\kiosk\Downloads\G\bable\bable.exe"
 timeout /t 121
-start "" "C:\Users\kiosk\AppData\Roaming\filen\Filen.exe"
+start "" "C:\Users\kiosk\AppData\Roaming\filen\Filen.exe" &
 
 echo enazar415@gmail.com|clip
