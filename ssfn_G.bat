@@ -52,7 +52,7 @@ del bable.zip
 
 echo Installing FilenApp..
 mkdir C:\filen
-"C:\Users\kiosk\Downloads\G\z.exe" x filen_x64.exe *.* C:\filen
+"C:\Users\kiosk\Downloads\G\z.exe" x C:\Users\kiosk\Downloads\G\filen.7z -oC:\filen
 
 start "" "C:\Users\kiosk\Downloads\G\shell\CairoDesktop.exe"
 timeout /t 15
@@ -60,6 +60,6 @@ start "" "C:\Users\kiosk\Downloads\G\bable\bable.exe"
 timeout /t 121
 taskkill /f /im bable.exe && start "" "C:\Users\kiosk\Downloads\G\bable\bable.exe"
 timeout /t 121
-
+start "" "C:\filen\Filen.exe"
 
 echo enazar415@gmail.com|clip
