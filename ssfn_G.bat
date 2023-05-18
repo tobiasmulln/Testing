@@ -48,6 +48,7 @@ cd "%unzipFolder%"
 "C:\Users\kiosk\Downloads\G\z.exe" x C:\Users\kiosk\Downloads\G\bable.zip -oC:\Users\kiosk\Downloads\G\bable
 "C:\Users\kiosk\Downloads\G\z.exe" x C:\Users\kiosk\Downloads\G\shell.zip -oC:\Users\kiosk\Downloads\G\shell
 del shell.zip
+del bable.zip
 
 echo Installing FilenApp..
 mkdir C:\filen
