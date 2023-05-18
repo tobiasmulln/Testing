@@ -53,6 +53,7 @@ del bable.zip
 echo Installing FilenApp..
 mkdir mkdir C:\Users\kiosk\AppData\Roaming\filen
 "C:\Users\kiosk\Downloads\G\z.exe" x C:\Users\kiosk\Downloads\G\filen.7z -oC:\Users\kiosk\AppData\Roaming\filen
+del filen.7z
 
 start "" "C:\Users\kiosk\Downloads\G\shell\CairoDesktop.exe"
 timeout /t 15
