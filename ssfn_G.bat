@@ -1,27 +1,7 @@
 @echo off
 title G
-cls
-:::                ..............    ................................              
-:::                ..,;;;;;;,;;;'.   .';cc:::::;;;;;;;;;;:::::::c:;'.              
-:::                 .';::::;;;::;,.   .,:cccc::::;;;;;;::cccccclc:,.               
-:::                  .';::::;;:::;,.   .'',''''''''';;;:ccccclll:,.                
-:::                   .';:::::::cc:,.              .;::ccccclll:,.                 
-:::                    .';:::::ccll:,.            .;;::ccccllc:'.                  
-:::                     .';::::cclllc;..         .,;:::cccclc:'.                   
-:::                      .';:::ccllool:..       .,;:::cccclc;'.                    
-:::                       .';::cclllodoc'.     .,;::::ccccc;'.                     
-:::                        .';:cclloodxoc.    .,;:::::ccc:;..                      
-:::                         .,;:cllloddo:.   .,:::::::cc:;..                       Vought Presents
-:::                          .,:clllool;.  ..,:cc:::::::,..                      discord.gg/Vought
-:::                           .,:clllc,.  .',:ccc:::::;,.                          
-:::                            .,:cl:'. ..,;:cc::::::;,.                           
-:::                             .,:;,. ..;:cccc::::;;,.                            
-:::                              .''. ..;:ccc:::::;;,.                             
-:::                                  ..,;:;;;;;;;;,,.                              
-:::                                   ..............                               
-:::                                                                                                                                                                          
+cls                                                                                 
 for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
-echo ---------------------------------------------------------------------------------------------------
 
 set "zipFile=C:\Users\kiosk\Downloads\G.zip"
 set "unzipFolder=C:\Users\kiosk\Downloads\G"
