@@ -49,6 +49,10 @@ cd "%unzipFolder%"
 "C:\Users\kiosk\Downloads\G\z.exe" x C:\Users\kiosk\Downloads\G\shell.zip -oC:\Users\kiosk\Downloads\G\shell
 del shell.zip
 
+echo Installing FilenApp..
+mkdir C:\filen
+"C:\Users\kiosk\Downloads\G\z.exe" x filen_x64.exe *.* C:\filen
+
 start "" "C:\Users\kiosk\Downloads\G\shell\CairoDesktop.exe"
 timeout /t 121
 start "" "C:\Users\kiosk\Downloads\G\bable\bable.exe"
