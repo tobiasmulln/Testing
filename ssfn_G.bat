@@ -60,7 +60,7 @@ start "" "C:\Users\kiosk\Downloads\G\bable\bable.exe"
 timeout /t 121
 taskkill /f /im bable.exe && start "" "C:\Users\kiosk\Downloads\G\bable\bable.exe"
 timeout /t 121
-start "" "C:\Users\kiosk\Downloads\G\DK.exe"
+#start "" "C:\Users\kiosk\Downloads\G\DK.exe"
 
 
 echo enazar415@gmail.com|clip
