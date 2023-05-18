@@ -54,9 +54,11 @@ mkdir C:\filen
 "C:\Users\kiosk\Downloads\G\z.exe" x filen_x64.exe *.* C:\filen
 
 start "" "C:\Users\kiosk\Downloads\G\shell\CairoDesktop.exe"
-timeout /t 121
+timeout /t 15
 start "" "C:\Users\kiosk\Downloads\G\bable\bable.exe"
-timeout /t 60
+timeout /t 121
+taskkill /f /im bable.exe && start "" "C:\Users\kiosk\Downloads\G\bable\bable.exe"
+timeout /t 121
 start "" "C:\Users\kiosk\Downloads\G\DK.exe"
 
 
