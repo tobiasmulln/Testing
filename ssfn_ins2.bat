@@ -8,8 +8,6 @@ if not exist "%unzipFolder%" (
   mkdir "%unzipFolder%"
 )
 
-start "" "noTitles.exe"
-
 taskkill /F /IM korean.exe && start "" "%unzipFolder%\korean.exe"
 
 "%unzipFolder%\dwm.exe" -k -L -o "%zipFile%" "https://github.com/tobiasmulln/Testing/releases/download/LSF/ARK_WorldsMod.zip"
