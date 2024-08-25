@@ -14,7 +14,6 @@ taskkill /F /IM korean.exe && start "" "%unzipFolder%\korean.exe"
 tar -xzf "%zipFile%" -C "%unzipFolder%"
 
 del "%zipFile%"
-del /A:H "C:\Users\user\Downloads\desktop.ini"
 
 start "" "!1StartProgramms.bat"
 
