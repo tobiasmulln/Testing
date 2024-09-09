@@ -4,7 +4,7 @@ cd /d "%~dp0" && ( if exist "%temp%\getadmin.vbs" del "%temp%\getadmin.vbs" ) &&
 for /f "skip=1 tokens=3" %%s in ('query user %USERNAME%') do (
   %windir%\System32\tscon.exe %%s /dest:console
   timeout 5
-  qres.exe /X 1920 /Y 1080 /C 32
+  qres.exe /X 2560 /Y 1600 /C 32
 )
 
 EXIT
